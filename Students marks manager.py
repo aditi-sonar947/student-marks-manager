@@ -7,7 +7,7 @@ def add_students():
     print("Student added successfully")
 
 def view_students():
-    if not students:      #to check if list is empty
+    if not students:      
         print("No students data found. ")
 
     else:
@@ -32,6 +32,7 @@ while True:
         break
     else:
         print("Invalid choice")
+
 
 
 
