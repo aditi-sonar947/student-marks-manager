@@ -3,7 +3,7 @@ students = []
 def add_students():
     name = input("Enter student name :")
     marks = int(input("Enter marks: "))
-    students.append({"name ": name, "marks ": marks })
+    students.append({"name": name, "marks": marks })
     print("Student added successfully")
 
 def view_students():
@@ -37,3 +37,4 @@ while True:
 
 
    
+
